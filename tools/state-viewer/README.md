@@ -90,6 +90,14 @@ Flags:
 
 * `--height` takes state from the genesis up to and including the given height. By default, dumps all available state.
 
+### `dump_tx`
+
+Saves all transactions of a block to a file.
+
+Flags:
+
+* `--height` specifies the block by its height.
+
 ### `rocksdb_stats`
 
 Tool for measuring statistics of the store for each column:
